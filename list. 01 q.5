@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // Declaração de variáveis
+    float altura, peso_ideal;
+
+    // Declaração de constantes
+    const float k = 72.7;
+    const int B = 38;
+
+    // Entrada de dados
+    printf("Informe a altura (em metros): ");
+    scanf("%f", &altura);
+
+    // Processamento
+    peso_ideal = (k * altura) - B;
+
+    // Saída de dados
+    printf("O peso ideal é: %.2f kg\n", peso_ideal);
+
+    return 0;
+}
