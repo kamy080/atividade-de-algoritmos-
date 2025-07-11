@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // Declaração de variáveis
+    float n1, n2, n3, n4, media_aritmetica;
+
+    // Entrada de dados
+    printf("Informe a primeira nota: ");
+    scanf("%f", &n1);
+
+    printf("Informe a segunda nota: ");
+    scanf("%f", &n2);
+
+    printf("Informe a terceira nota: ");
+    scanf("%f", &n3);
+
+    printf("Informe a quarta nota: ");
+    scanf("%f", &n4);
+
+    // Processamento
+    media_aritmetica = (n1 + n2 + n3 + n4) / 4;
+
+    // Saída de dados
+    printf("A média aritmética do aluno é: %.2f\n", media_aritmetica);
+
+    return 0;
+}
