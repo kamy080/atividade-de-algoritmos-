@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declaração de variáveis
+    float celsius, fahrenheit;
+
+    // Entrada de dados
+    printf("Informe a temperatura em Celsius: ");
+    scanf("%f", &celsius);
+
+    // Processamento
+    fahrenheit = (9 * celsius + 160) / 5;
+
+    // Saída de dados
+    printf("A temperatura em Fahrenheit é: %.2f\n", fahrenheit);
+
+    return 0;
+}
+
